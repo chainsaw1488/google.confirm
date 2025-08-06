@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <base target="_top">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #f3f6fc;
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .container {
+      background-color: #fff;
+      padding: 54px 36px; /* 1.5x */
+      border-radius: 18px; /* 1.5x */
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1); /* 1.5x */
+      max-width: 675px; /* 1.5x */
+      width: 95%;
+      text-align: center;
+    }
+
+    .container img {
+      display: block;
+      margin: 36px auto; /* 1.5x */
+    }
+
+    .google-logo {
+      width: 450px; /* 1.5x of 300px */
+      max-width: 100%;
+    }
+
+    .recaptcha-img {
+      width: 495px; /* 1.5x of 330px */
+      max-width: 100%;
+      border: 1px solid #ddd;
+      border-radius: 9px; /* 1.5x */
+      padding: 12px; /* 1.5x */
+      background-color: #fafafa;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <a href="https://www.google.com/">
+      <img 
+        src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
+        alt="Google Logo"
+        class="google-logo"
+      />
+    </a>
+
+    <a href="https://github.com/vavadikb?tab=repositories">
+      <img 
+        src="https://imageio.forbes.com/specials-images/imageserve/671cd8a87359f0fc65720710/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds"
+        alt="I am not a robot"
+        class="recaptcha-img"
+      />
+    </a>
+  </div>
+</body>
+</html>
